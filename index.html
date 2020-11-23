@@ -4,9 +4,34 @@
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
+
+    <div class="container">
+        <nav class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Plots</button>
+                    <div class="dropdown-content">
+                      <a href="#">Max Temperature</a>
+                      <a href="#">Humidity</a>
+                      <a href="#">Cloudiness</a>
+                      <a href="#">Wind Speed</a>
+                    </div>
+                  </div>
+              <a href="#">Comparison</a>
+              <a href="#">Data</a>
+        </nav>
+
+    <div class="container">
+         <div class="row">
+             <div class="col-md-7">
+                <div class="latVx">col-md-7</div>
+              </div>
+              <h1>Summary: Latitude vs. X</h1>
+
+              <img src='Resources/assets/images/Fig1.png'/>
 
     <p>The purpose of this project was to analyze how the weather changes as you get closer to the equator.
         To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset on over 500 cities.
@@ -15,6 +40,9 @@
         temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis,
         as well as explanations and descriptions of any trends and correlations witnessed.
     </p>
+    </div>
+ 
+  
 
   </body>
 </html>
