@@ -29,7 +29,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                         <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <a class="dropdown-item" href=" cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
                         <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
                     </div>
                 <li class="nav-item active">
@@ -43,64 +43,68 @@
             </ul>
         </div>
     </nav>
-   
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
 
-                    <h1>Summary: Latitude vs. X</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
 
-                    <img src='Resources/assets/images/Fig1.png' class="img-fluid" alt="City Latitude vs. Max Temp" />
+                <h1>Summary: Latitude vs. X</h1>
 
-                    <p>The purpose of this project was to analyze how the weather changes as you get closer to the
-                        equator.
-                        To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset
-                        on over 500
-                        cities.
+                <img src='Resources/assets/images/Fig1.png' class="img-fluid" alt="City Latitude vs. Max Temp" />
 
-                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-                        latitude.
-                        Factors
-                        we looked at included:
-                        temperature, cloudiness, wind speed, and humidity. This site provides the source data and
-                        visualizations
-                        created as part of the analysis,
-                        as well as explanations and descriptions of any trends and correlations witnessed.
-                    </p>
-                </div>
-                <div class="col-md-5">
+                <p>The purpose of this project was to analyze how the weather changes as you get closer to the
+                    equator.
+                    To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset
+                    on over 500
+                    cities.
 
-                    <h2>Visualizations</h2>
-                    <div class="row">
-                        <div class="col-md-6">
+                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
+                    latitude.
+                    Factors
+                    we looked at included:
+                    temperature, cloudiness, wind speed, and humidity. This site provides the source data and
+                    visualizations
+                    created as part of the analysis,
+                    as well as explanations and descriptions of any trends and correlations witnessed.
+                </p>
+            </div>
+            <div class="col-md-5">
 
-                            <a href="#"><img src="Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail"></a>
+                <h2>Visualizations</h2>
+                <div class="row">
+                    <div class="col-md-6">
 
-                        </div>
-                        <div class="col-md-6">
-                            <img src="Resources/assets/images/Fig2.png" alt="..." class="img-thumbnail">
+                        <a href="maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="..."
+                                class="img-thumbnail"></a>
 
-                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="Resources/assets/images/Fig3.png" alt="..." class="img-thumbnail">
+                    <div class="col-md-6">
+                        <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" alt="..."
+                                class="img-thumbnail"></a>
 
-                        </div>
-                        <div class="col-md-6">
-                            <img src="Resources/assets/images/Fig4.png" alt="..." class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="..."
+                                class="img-thumbnail"></a>
 
-                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" alt="..."
+                                class="img-thumbnail"></a>
+
                     </div>
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 </body>
 
