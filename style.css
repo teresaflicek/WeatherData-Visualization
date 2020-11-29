@@ -29,3 +29,9 @@ body{
 .h3{
   padding: 2%;
 }
+
+footer{
+  position: relative;
+  text-align: center;
+  padding: 1%;
+}
