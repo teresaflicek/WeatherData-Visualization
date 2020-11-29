@@ -2,9 +2,30 @@ body{
   background-color: rgb(250, 235, 98);
 }
 
+.navbar-brand{
+  background-color: rgb(241, 237, 237);
+  padding: 1%;
+}
 
 .container{
+  position: relative;
   background-color: rgb(241, 237, 237);
   padding: 7%;
 }
 
+.col-md-7{
+  background-color: white;
+  padding: 2%;
+  margin: 4;
+}
+
+.col-md-5{
+  position: relative;
+  bottom: 0;
+  background-color: white;
+  padding: 2%;
+}
+
+.h3{
+  padding: 2%;
+}
