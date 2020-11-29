@@ -24,3 +24,6 @@
 
 * Displays a responsive table containing the data used in the visualizations.
 * The table is a bootstrap table component.
+
+
+[Link to website!](https://teresaflicek.github.io/web-design-challenge/)
