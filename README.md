@@ -1,5 +1,3 @@
-# web-design-challenge
-
 # Background
 
 ### This website consists of 7 pages total, including:
