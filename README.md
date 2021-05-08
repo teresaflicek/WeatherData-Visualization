@@ -26,4 +26,4 @@
 * The table is a bootstrap table component.
 
 
-[Link to website!](https://teresaflicek.github.io/web-design-challenge/)
+[Link to website!](https://teresaflicek.github.io/WeatherData-Visualization/)
